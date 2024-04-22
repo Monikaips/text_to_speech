@@ -2,7 +2,7 @@
 This is a simple web application that converts text input into speech using the Speech Synthesis API in JavaScript.
 
 ## Demo
-You can try out the application [here](<link-to-live-demo>).
+You can try out the application [here](https://monikaips.github.io/text_to_speech/).
 
 ## Features
 - Convert text to speech in real-time.
