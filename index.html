@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Speech Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Text to Speech Converter</h1>
+        <textarea id="txt_to_speech" placeholder="Type something here..."></textarea>
+        <button onclick="speak()">Text to speech</button>
+    </div>
+
+    <script>
+        var speech = new SpeechSynthesisUtterance();
+
+        function speak() {
+            var textInput = document.getElementById('txt_to_speech').value.trim();
+            if (textInput) {
+                speech.text = textInput;
+                speech.rate = 1; // Normal speed
+                speech.pitch = 1; // Normal pitch
+                speech.volume = 1; // Full volume
+
+                window.speechSynthesis.cancel(); // Cancel previous speeches
+                window.speechSynthesis.speak(speech);
+            } else {
+                alert('Please enter some text to convert to speech.');
+            }
+        }
+    </script>
+</body>
+</html>
