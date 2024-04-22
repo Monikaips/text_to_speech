@@ -6,8 +6,7 @@ You can try out the application [here](https://monikaips.github.io/text_to_speec
 
 ## Features
 - Convert text to speech in real-time.
-- Adjustable speech rate, pitch, and volume.
-- Clear button to stop current speech and start new speech.
+
 
 ## Technologies Used
 - HTML
@@ -17,5 +16,3 @@ You can try out the application [here](https://monikaips.github.io/text_to_speec
 ## Usage
 Type or paste the text you want to convert to speech into the text area.
 Click on the "Text to speech" button.
-Adjust the speech rate, pitch, and volume as needed.
-To stop the current speech and start new speech, click the button again or modify the text.
