@@ -70,3 +70,12 @@ button{
         background-position: center center;
     }
 }
+@media (max-width: 600px) {
+    h1 {
+        font-size: 1.2em; /* Smaller font size on smaller screens */
+    }
+    button {
+        padding: 10px 15px;
+        font-size: 0.9em;
+    }
+}
